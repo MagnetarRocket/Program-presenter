@@ -1,6 +1,6 @@
-## progman
+## Program-presenter
 
-progman is a simple X11 window manager modeled after the Windows 3 era.
+A OS/2 1.2 + 1.3, Win 3.X - like x11 window manager. Has some features from "Amish System Utilities" integrated as basic functionality.
 
 ![progman screenshot](https://jcs.org/images/progman-20200810.png)
 
@@ -13,6 +13,8 @@ MIT
 Run `make` to compile, and `make install` to install to `/usr/local` by
 default.
 
+To uninstall, run `make uninstall`.
+
 ### Features
 
 - Window minimizing, drawing icons and labels on the root/desktop
@@ -21,6 +23,8 @@ default.
 - Window shading by right-clicking on a window titlebar
 - Window moving by holding down `Alt` (configurable) and clicking anywhere on a
   window
+- Built-in menu acessed via the right mouse-button by default, menu can be ajusted by the user.
+- Window menus, can use window hints a-la the motif wm.
 - Built-in keyboard binding support by adding items to the `[keyboard]`
   section of `~/.config/progman/progman.ini` such as `Win+L = exec xlock`
 - Built-in mouse button binding on the desktop by adding items to the
