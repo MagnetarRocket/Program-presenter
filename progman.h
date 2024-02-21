@@ -36,7 +36,7 @@
 #define DEF_UNFOCUSED_FG "black"
 #define DEF_UNFOCUSED_BG "white"
 #define DEF_BUTTON_BG "#c0c7c8"
-#define DEF_BEVEL_DARK "#87888f"
+#define DEF_BEVEL_DARK "#919191"
 #define DEF_BEVEL_LIGHT "white"
 
 /* Borders */
@@ -435,6 +435,8 @@ extern void launcher_setup(void);
 extern void launcher_show(XButtonEvent *);
 extern void launcher_programs_free(void);
 extern client_t *cycle_head;
+
+/*menu.c*/
 
 /* util.c */
 extern void fork_exec(char *);
