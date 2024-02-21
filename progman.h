@@ -41,6 +41,7 @@
 
 /* Borders */
 #define DEF_BORDER_FG "black"
+#define DEF_BORDER_UNFOCUSED "white"
 #define DEF_BORDER_BG "#c0c7c8"
 
 /* Launcher */
@@ -290,6 +291,7 @@ extern XColor button_bg;
 extern XColor bevel_dark;
 extern XColor bevel_light;
 extern XColor border_fg;
+extern XColor unfocused_border;
 extern XColor border_bg;
 extern XColor launcher_fg;
 extern XColor launcher_bg;

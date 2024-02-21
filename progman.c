@@ -91,6 +91,7 @@ XColor button_bg;
 XColor bevel_dark;
 XColor bevel_light;
 XColor border_fg;
+XColor unfocused_border;
 XColor border_bg;
 XColor launcher_fg;
 XColor launcher_bg;
@@ -138,6 +139,7 @@ char *opt_button_bg = DEF_BUTTON_BG;
 char *opt_bevel_dark = DEF_BEVEL_DARK;
 char *opt_bevel_light = DEF_BEVEL_LIGHT;
 char *opt_border_fg = DEF_BORDER_FG;
+char *opt_unfocused_border = DEF_BORDER_UNFOCUSED;
 char *opt_border_bg = DEF_BORDER_BG;
 char *opt_launcher_fg = DEF_LAUNCHER_FG;
 char *opt_launcher_bg = DEF_LAUNCHER_BG;
@@ -237,6 +239,8 @@ read_config(void)
 				opt_button_bg = strdup(val);
 			else if (strcmp(key, "border_fgcolor") == 0)
 				opt_border_fg = strdup(val);
+			else if (strcmp(key, "unfocused_border") == 0)
+				opt_unfocused_border = strdup(val);
 			else if (strcmp(key, "border_bgcolor") == 0)
 				opt_border_bg = strdup(val);
 			else if (strcmp(key, "launcher_fgcolor") == 0)
