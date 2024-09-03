@@ -1,0 +1,5 @@
+# This is for windows (and actual DOS & OS/2) systems 
+# mainly, the reason is the simple fact that by default
+# the text editors of those systems default to CRLF 
+# instead of LF
+
